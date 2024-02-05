@@ -1,0 +1,9 @@
+# Ignore IPython Notebook checkpoints
+**/*.ipynb_checkpoints/
+
+# Ignore TIFF files
+**/*.tiff
+**/*.tif
+
+# Ignore H5 files
+**/*.h5
