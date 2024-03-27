@@ -8,9 +8,6 @@ The project includes two models for fire detection:
 
 The inference process is implemented in Python using TensorFlow.
 
-## The Dashboard
-The Dashboard is a web application built with Next.js. It is used to visualize the metrics obtained from the model's inference.
-
 ### General Requirements
 To run this project, you will need the following:
 
