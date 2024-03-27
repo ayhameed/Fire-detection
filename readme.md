@@ -47,7 +47,7 @@ Detailed instructions are provided within the following folders:
 The project has the folllowing folders
 - Fire-detection: this is the root folder 
     - /annotations : this contains the annotated boundaries of the fire in JSON
-    - checkpoints: contains the model checkpoint for the UNET and GAN
+    - /checkpoints: contains the model checkpoint for the UNET and GAN.
     - /dataset: this consists of :
         - /images : contains the satellite imagery
         - /tiles : contains the normalized tiled images
