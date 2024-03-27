@@ -53,7 +53,7 @@ The project has the folllowing folders
         - /tiles : contains the normalized tiled images
         - /masks : contains the image masks for the tiles
     - /functions: this contains defined functions and the model scripts to create the GAN and UNET models
-    - /model: contains the ipynb files for both models
+    - /model: contains the ipynb files for both models and the data preprocessing script
 
 ### Contact
 hameedyunusa@outlook.com
