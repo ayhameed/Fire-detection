@@ -10,3 +10,9 @@
 
 # Ignore user define checkpoints
 /checkpoints
+
+# Ignore .dist
+/.dist
+
+# Ignore dashboard
+/dashboard
