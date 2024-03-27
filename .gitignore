@@ -7,3 +7,6 @@
 
 # Ignore H5 files
 **/*.h5
+
+# Ignore user define checkpoints
+/checkpoints
