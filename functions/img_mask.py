@@ -26,6 +26,9 @@ def create_masks(tiles, mask_dir="../dataset/masks", threshold=0.3):
         # Apply threshold
         red_thresholded = red_band > threshold
 
+        # Add extra dimension to make it (512, 512, 1)
+        red_thresholded = np.expand_dims(red_thresholded, axis=-1)
+
         # Save the mask
         mask_filename = f"mask_{i}.png"  # Generate mask name
         mask_path = os.path.join(mask_dir, mask_filename)

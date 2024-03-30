@@ -25,6 +25,7 @@ The aim of this dissertation is to develop and optimize a high-accuracy wildfire
 - pandas
 - Keras
 - Matplotlib
+- Tabulate
 
 
 ## Getting Started

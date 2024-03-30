@@ -1,8 +1,13 @@
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, concatenate
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
 
 def unet():
+    """
+    Creates a U-Net model for image segmentation.
+
+    Returns:
+        A Keras Model object representing the U-Net model.
+    """
     inputs = Input((512, 512, 3))
 
     # Encoder
@@ -35,8 +40,8 @@ def unet():
     conv7 = Conv2D(32, 3, activation='relu', padding='same')(merge2)
     conv7 = Conv2D(32, 3, activation='relu', padding='same')(conv7)
 
-    # Output layer (modify based on your number of classes)
-    outputs = Conv2D(3, 1, activation='sigmoid', padding='same')(conv7)
+    # Output layer
+    outputs = Conv2D(1, 1, activation='sigmoid', padding='same')(conv7)
 
     model = Model(inputs=[inputs], outputs=[outputs])
     return model
