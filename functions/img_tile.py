@@ -46,9 +46,11 @@ def tile_image(normalized_image, tile_size, overlap, save_directory="../dataset/
                 pad_x = tile_width - tile.shape[1]
                 tile = np.pad(tile, ((0, pad_y), (0, pad_x), (0, 0)), mode='constant', constant_values=padding_value)
 
-            # Save tile with debugging info 
-            tile_filename = f"tile_{i}_{j}.{output_format}" 
+            # Save tile
+            tile_filename = f"tile_{i * num_horiz_tiles + j}.{output_format}" 
             tile_path = os.path.join(save_directory, tile_filename)
+            
+            # Save tile with debugging info 
             print(f"Saving to: {tile_path}") 
 
             success = cv2.imwrite(tile_path, cv2.cvtColor((tile * 255).astype(np.uint8), cv2.COLOR_RGB2BGR))
