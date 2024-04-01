@@ -8,11 +8,17 @@
 # Ignore H5 files
 **/*.h5
 
-# Ignore user define checkpoints
+# Ignore user-defined checkpoints
 /checkpoints
 
 # Ignore .dist
-/.dist
+**/*.dist
 
 # Ignore dashboard
 /dashboard
+
+# Ignore annotations
+/annotations
+
+# Ignore .vscode
+**/.vscode
