@@ -35,7 +35,7 @@ def create_masks(tiles, mask_dir="../dataset/masks", threshold=0.3):
         
         # Save tile with debugging info 
         print(f"Saving to: {mask_path}") 
-        cv2.imwrite(mask_path, red_thresholded.astype(np.uint8) * 255)  # Save as a binary image
+        cv2.imwrite(mask_path, red_thresholded.astype(np.uint8))  # Save as a binary image
 
         masks.append(red_thresholded)  # Store the mask
 
