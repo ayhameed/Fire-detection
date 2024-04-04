@@ -62,6 +62,7 @@ The project has the folllowing folders
         - /gan : contains functions used to build and compile the GAN model
 
     - /model: contains the ipynb files for both models and the data preprocessing script
+        - load_binary_mask.py : a py script to load binary masks from a path 
         - unet : the notebook file containing the unet model and results
         - gan : the notebook file containing the data generation process
         - unet_gan : the notenook file containing the unet model trained with gan data and the results 
