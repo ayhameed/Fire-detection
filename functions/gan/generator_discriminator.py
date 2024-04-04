@@ -25,7 +25,7 @@ def build_generator(latent_dim, num_classes):
     x = Conv2DTranspose(64, kernel_size=4, strides=2, padding='same', activation='relu')(x)
     x = Conv2DTranspose(32, kernel_size=4, strides=2, padding='same', activation='relu')(x)
 
-    outputs = Conv2DTranspose(1, kernel_size=4, activation='sigmoid', padding='same')(x)  # Adjusted for binary classification
+    outputs = Conv2DTranspose(3, kernel_size=4, strides=2, padding='same', activation='sigmoid')(x)  # Adjusted for 512x512 output
 
     model = Model([inputs, labels], outputs)
     return model

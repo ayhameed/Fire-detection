@@ -1,6 +1,8 @@
+# ignore other versions of the original image
 sat_imagery_fire.jpg
-sam_vit_b_01ec64.pth
 Imagery.jpeg
+
+# Ignore inital versions of the UNET Model
 Wildfire_detection_from_satellite_imagery_model-v1.ipynb
 Wildfire_detection_from_satellite_imagery_model_false_image-v2.ipynb
 Wildfire_detection_from_satellite_imagery_model_true_color-v3.ipynb
@@ -11,3 +13,8 @@ Wildfire_detection_from_satellite_imagery_model-v7.ipynb
 Wildfire_detection_from_satellite_imagery_new_annot_model-v8.ipynb
 Wildfire_detection_from_satellite_imagery_model-v9.ipynb
 Wildfire_detection_from_satellite_imagery_new_annot_model-v9.ipynb
+
+# Ignore initial versions of GAN for data systesis 
+gan.ipynb
+gan-v1.ipynb
+gan-v2.ipynb
