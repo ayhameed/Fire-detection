@@ -9,7 +9,7 @@
 **/*.h5
 
 # Ignore user-defined checkpoints
-/checkpoints
+# /checkpoints
 
 # Ignore .dist
 **/*.dist
