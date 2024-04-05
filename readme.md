@@ -73,3 +73,4 @@ The project has the folllowing folders
 ### Note:
 - dir or files with ** appended to the name have been added to the gitignore file 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ayhameed/Fire-detection/HEAD)
