@@ -2,5 +2,8 @@
 generator_v1.keras
 generator_v2.keras
 generator_v3.keras
-generator_MSE_Sigmoid_v4.keras
+generator_hinge_loss.keras
+generator_Bce_loss.keras
+generator_MSE_Sigmoid_v4_a.keras
 generator_Bce_loss_Sigmoid_v5.keras
+gan_bce_loss.ipynb
