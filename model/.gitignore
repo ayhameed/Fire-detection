@@ -14,7 +14,14 @@ Wildfire_detection_from_satellite_imagery_new_annot_model-v8.ipynb
 Wildfire_detection_from_satellite_imagery_model-v9.ipynb
 Wildfire_detection_from_satellite_imagery_new_annot_model-v9.ipynb
 
+
 # Ignore initial versions of GAN for data systesis 
 gan.ipynb
 gan-v1.ipynb
 gan-v2.ipynb
+gan-v3.ipynb
+gan-v4.ipynb
+gan-v5.ipynb
+gan-v6.ipynb
+gan_Wasserstein_loss.ipynb
+gan_hinge_loss.ipynb

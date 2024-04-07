@@ -1,0 +1,6 @@
+## Ignore Initial Model Checkpoints 
+generator_v1.keras
+generator_v2.keras
+generator_v3.keras
+generator_MSE_Sigmoid_v4.keras
+generator_Bce_loss_Sigmoid_v5.keras
