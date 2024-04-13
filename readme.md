@@ -39,7 +39,8 @@ pip install -r requirements.txt
 Detailed instructions are provided within the following folders:
 - model/image_preprocessing.ipynb
 - model/unet.ipynb
-- model/gan.ipynb
+- model/unet-with-gan-data
+- model/gan_mse_loss.ipynb
 
 ### Folder structure
 The project has the folllowing folders
@@ -50,7 +51,7 @@ The project has the folllowing folders
     - /checkpoints **: contains the model checkpoint for the UNET and GAN.
         - unet_checkpoint.keras : the checkpoint for the UNET trained without gan augumentation
         - unet_with_gan_checkpoint.kera : the checkpoint for the UNET trained with gan augumentation
-        - generator.h5 : the checkpoint for the generator used to create the synthetic images 
+        - generator_MSE_Sigmoid_v4.keras : the checkpoint for the generator used to create the synthetic images 
 
     - /dataset: contains the dataset used to train and test the model and consists of :
         - /images : contains the satellite imagery
